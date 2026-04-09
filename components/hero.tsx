@@ -23,7 +23,7 @@ const Hero = () => {
           <div className="mt-12 flex flex-col sm:flex-row items-center sm:justify-center gap-4">
             <Button
               size="sm"
-              className="hidden sm:flex rounded-full px-3 md:px-4 text-md"
+              className="rounded-full px-3 md:px-4 text-md"
               onClick={() => {
                 window.open("https://wa.me/918296472301", "_blank");
               }}
