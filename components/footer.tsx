@@ -19,7 +19,7 @@ const Footer = () => {
         <div className="py-12 flex flex-col sm:flex-row justify-between gap-10">
           {/* Logo + Links */}
           <div>
-            <h2 className="text-xl font-bold">Vanguox</h2>
+            <h2 className="text-xl font-bold">Vangox</h2>
 
             <ul className="mt-6 flex flex-wrap gap-4">
               {footerLinks.map(({ title, href }) => (

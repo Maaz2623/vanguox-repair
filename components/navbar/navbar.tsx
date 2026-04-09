@@ -20,7 +20,7 @@ const Navbar = () => {
             height={50}
           />
           <p className="text-base sm:text-lg md:text-xl font-semibold hidden xs:block">
-            VANGUOX
+            VANGOX
           </p>
         </div>
 
