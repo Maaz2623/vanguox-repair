@@ -28,7 +28,7 @@ const Hero = () => {
                 window.open("https://wa.me/918296472301", "_blank");
               }}
             >
-              <span className="hidden md:inline">Book a Repair</span>
+              <span className="">Book a Repair</span>
               <ArrowUpRight className="h-4 w-4 md:ml-1" />
             </Button>
           </div>
