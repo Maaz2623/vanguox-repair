@@ -4,6 +4,7 @@ import { ThemeProvider } from "next-themes";
 import { Geist } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/sonner";
+import GoogleAnalytics from "@/components/google-analytics";
 
 const geistSans = Geist({
   subsets: ["latin"],
@@ -106,6 +107,7 @@ export default function RootLayout({
           <Toaster />
           <TooltipProvider>{children}</TooltipProvider>
         </ThemeProvider>
+        <GoogleAnalytics /> {/* 👈 put it here */}
       </body>
     </html>
   );
